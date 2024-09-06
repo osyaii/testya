@@ -12,9 +12,9 @@ namespace ConsoleApp1
         static double Summa(double x)
         {
             double summaaa = 0;
-                for (int i = 1; i <=10; i++)
+            for (int i = 1; i <= 10; i++)
             {
-                summaaa += Math.Pow(x, i)/(i + x);
+                summaaa += Math.Pow(x, i) / (i + x);
             }
             return summaaa;
         }
