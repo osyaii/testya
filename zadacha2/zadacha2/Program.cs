@@ -6,7 +6,17 @@ namespace zadacha2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string text = "Финик.Бабуинцев";
+
+            string[] words = text.Split(new char[] { '.' });
+        
+
+            string first = words[0];
+            string second = words[1];
+
+            Console.WriteLine(first);
+            Console.WriteLine(second);
         }
+        
     }
 }
